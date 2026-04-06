@@ -10,6 +10,7 @@ export default function Home() {
         <div key={post.id}>
           <Link href={`/post/${post.id}`}>
             <h2>{post.title}</h2>
+            <p>this is an extra pragraph for checking pull request</p>
           </Link>
         </div>
       ))}
